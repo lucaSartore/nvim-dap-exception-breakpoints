@@ -74,4 +74,4 @@ local function edit_exception_breakpoints()
     multiselect(available_options,selected_options, callback)
 end
 
-return edit_exception_breakpoints()
+return edit_exception_breakpoints
