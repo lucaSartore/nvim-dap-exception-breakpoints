@@ -1,7 +1,5 @@
 local dap = require("dap")
-local find = require("nvim-dap-exception-breakpoints.util").find
 local map = require("nvim-dap-exception-breakpoints.util").map
-local all = require("nvim-dap-exception-breakpoints.util").all
 local options_equal = require("nvim-dap-exception-breakpoints.util").options_equal
 local multiselect = require("nvim-dap-exception-breakpoints.multiselect")
 
