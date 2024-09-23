@@ -36,3 +36,6 @@ Once the popup is open, you can:
 The plugin automatically stores your configuration and applies it each time you start a new debug session. If a session is already running, changes are applied immediately.
 
 If the available conditions change (for example, because you're debugging a different language), previous settings are discarded and the default configuration for the new language is applied.
+
+## Future objectives
+In the future I would love to implement something similar inside nvim-dap-ui... If the maintainers are interested. But for now this works wite well.
