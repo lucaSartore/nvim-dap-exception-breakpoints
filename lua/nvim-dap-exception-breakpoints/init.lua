@@ -32,7 +32,7 @@ end
 
 -- the list of supported exception breakpoints become available when the dap is initialized
 -- therefore i read it and i set my global variables
-dap.listeners.after["initialize"]["exception_breakpoints"] = function(session, _)
+dap.listeners.after["configurationDone"]["exception_breakpoints"] = function(session, _)
 	local breakpoints_options = session.capabilities.exceptionBreakpointFilters
 
 	-- the options hasn't change since last initialization, therefore there is no need to update them
